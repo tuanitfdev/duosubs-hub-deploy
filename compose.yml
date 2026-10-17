@@ -1,6 +1,6 @@
 services:
-  whisper-model-hub:
-    image: ghcr.io/tuanitfdev/duosubs-hub-deploy:${APP_TAG:-latest}
+  duosubs-hub:
+    image: ghcr.io/tuanitfdev/duosubsHubDeploy:${APP_TAG:-latest}
     build:
       context: .
       dockerfile: Dockerfile
