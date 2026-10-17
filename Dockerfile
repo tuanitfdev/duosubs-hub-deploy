@@ -1,3 +1,3 @@
 FROM alpine:latest
-COPY data/huggingfaceHub /data/huggingfaceHub
+COPY data/huggingface/hub /data/huggingface/hub
 CMD ["tail", "-f", "/dev/null"]
